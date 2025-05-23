@@ -3,10 +3,10 @@ from twilio.rest import Client
 # Twilio credentials from https://console.twilio.com/
 account_sid = ''
 auth_token = ''
-twilio_number = ''  # Your Twilio phone number
+twilio_number = '+16184089675'  # Your Twilio phone number
 
 # The number to call
-to_number = ''
+to_number = '+923138756156'
 
 # Initialize Twilio client
 client = Client(account_sid, auth_token)
